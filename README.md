@@ -1,4 +1,4 @@
-# 🚀 Visit Tracker
+# ​💻👀​​ Visit Tracker
 
 A lightweight, self-hosted, monolithic website analytics and visitor tracking system built with **PHP**, **MySQL (PDO)**, **Vanilla JavaScript**, and an interactive dashboard powered by **Vue 3**, **Chart.js**, and **Tailwind CSS** (via CDN).
 
@@ -22,6 +22,7 @@ Designed with **GDPR privacy by design**: visits are logged using a non-reversib
   - [Analytics & Management Endpoint (`stats_api.php`)](#analytics--management-endpoint-stats_apiphp)
 - [Database Architecture](#-database-architecture)
 - [GDPR Privacy & Security](#-gdpr-privacy--security)
+- [License](#-license)
 
 ---
 
@@ -276,7 +277,7 @@ The relational schema implements clean foreign keys and cascade deletions:
 Under European Union GDPR and global privacy standards, IP addresses are considered Personal Identifiable Information (PII). Visit Tracker respects user privacy through mathematical irreversibility:
 
 1. **Anonymous Hashing**:
-   $$\text{visitor\_hash} = \text{hash('sha256', } \text{IP} + \text{UserAgent} + \text{SECRET\_SALT})$$
+   $$\text{visitor\text{\_}hash} = \text{hash('sha256', } \text{IP} + \text{UserAgent} + \text{SECRET\text{\_}SALT}\text{)}$$
 2. **Zero Storage of Raw IPs**: Raw IP addresses and full User-Agent strings are **never written** to the database or stored in cookies/localStorage.
 3. **Rainbow-table Protection**: The high-entropy `SECRET_SALT` prevents attackers from reversing hashes using precomputed lists of public IP addresses.
 4. **No Cookies**: Users visiting tracked websites do not receive persistent tracking cookies or identifiers.

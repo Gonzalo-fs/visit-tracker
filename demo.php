@@ -11,6 +11,7 @@
         This is the script tag embedded by external client websites to track visits.
     -->
     <script src="http://localhost/visit-tracker/tracker.js" data-token="demo_token_visit_tracker" defer></script>
+    
 </head>
 <body class="bg-slate-100 min-h-screen flex items-center justify-center p-4">
 
