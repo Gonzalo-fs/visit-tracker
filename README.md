@@ -10,7 +10,7 @@ Designed with **GDPR privacy by design**: visits are logged using a non-reversib
 
 Watch the full walkthrough:
 
-[![Visit Tracker – Video Guide](https://cdn.loom.com/sessions/thumbnails/a2fe795a61f14e449a0f878027b349c9-with-play.gif)](https://www.loom.com/share/a2fe795a61f14e449a0f878027b349c9)
+[![Visit Tracker – Video Guide](https://cdn.loom.com/sessions/thumbnails/a2fe795a61f14e449a0f878027b349c9-with-play.gif)](https://www.loom.com/share/a2fe795a61f14e449a0f878027b349c9)]
 
 ---
 
