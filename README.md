@@ -6,6 +6,14 @@ Designed with **GDPR privacy by design**: visits are logged using a non-reversib
 
 ---
 
+## 🎬 Video Guide
+
+Watch the full walkthrough:
+
+[![Visit Tracker – Video Guide](https://cdn.loom.com/sessions/thumbnails/a2fe795a61f14e449a0f878027b349c9-with-play.gif)](https://www.loom.com/share/a2fe795a61f14e449a0f878027b349c9)
+
+---
+
 ## 📑 Table of Contents
 
 - [Features](#-features)
@@ -277,7 +285,7 @@ The relational schema implements clean foreign keys and cascade deletions:
 Under European Union GDPR and global privacy standards, IP addresses are considered Personal Identifiable Information (PII). Visit Tracker respects user privacy through mathematical irreversibility:
 
 1. **Anonymous Hashing**:
-   $$\text{visitor\text{\_}hash} = \text{hash('sha256', } \text{IP} + \text{UserAgent} + \text{SECRET\text{\_}SALT}\text{)}$$
+   $$\mathtt{visitor\_hash} = \mathtt{hash('sha256',\ IP + UserAgent + SECRET\_SALT)}$$
 2. **Zero Storage of Raw IPs**: Raw IP addresses and full User-Agent strings are **never written** to the database or stored in cookies/localStorage.
 3. **Rainbow-table Protection**: The high-entropy `SECRET_SALT` prevents attackers from reversing hashes using precomputed lists of public IP addresses.
 4. **No Cookies**: Users visiting tracked websites do not receive persistent tracking cookies or identifiers.
